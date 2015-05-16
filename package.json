@@ -1,0 +1,20 @@
+{
+  "name": "react-quickie",
+  "version": "0.1.0",
+  "description": "React + Omniscient + Immstruct + Webpack + Babel",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marlin Forbes <marlinf@datashaman.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^5.4.3",
+    "babel-loader": "^5.1.0",
+    "immstruct": "^1.4.0",
+    "node-libs-browser": "^0.5.0",
+    "omniscient": "^3.1.0",
+    "react": "^0.13.3",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2"
+  }
+}
