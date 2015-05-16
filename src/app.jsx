@@ -1,6 +1,9 @@
 import React from 'react';
 import immstruct from 'immstruct';
-import component from 'omniscient';
+
+var component = require('omniscient').withDefaults({
+    jsx: true
+});
 
 component.debug();
 
@@ -16,7 +19,7 @@ var Thing = component('Thing', ({ thing }) => {
 
 var Container = component('Container', ({ things }) =>
     <div>
-        {things.toArray().map((thing, i) => <Thing.jsx key={i} thing={thing} />)}
+        {things.toArray().map((thing, i) => <Thing key={i} thing={thing} />)}
     </div>
 );
 
@@ -32,7 +35,7 @@ render();
 
 function render() {
   React.render(
-      <Container.jsx things={data.cursor('things')} />,
+      <Container things={data.cursor('things')} />,
       document.getElementById('someDiv')
   );
 };
