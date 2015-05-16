@@ -11,5 +11,11 @@ Boilerplate using:
 
 Make tasks:
 
-* serve - serving from public using webpack-dev-server with hot replacement
+* serve - serving from public using webpack-dev-server with hot replacement (default)
 * build - pack entry points into build folder
+
+Folders:
+
+* build - webpack builds
+* public - static assets and container index.html
+* src - all your source goes in here. Use .jsx files to use babel. Add more loaders as appropriate.
