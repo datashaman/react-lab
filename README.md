@@ -1,7 +1,8 @@
-React Quickie
-=============
+# React Quickie
 
-Boilerplate using:
+Boilerplate using a few of my favourite things.
+
+## Components
 
 * react - https://facebook.github.io/react/
 * omniscient - http://omniscientjs.github.io/
@@ -9,12 +10,12 @@ Boilerplate using:
 * webpack - http://webpack.github.io/
 * babel-loader - https://github.com/babel/babel-loader
 
-Make tasks:
+## Make Tasks
 
 * serve - serving from public using webpack-dev-server with hot replacement (default)
 * build - pack entry points into build folder
 
-Folders:
+## Folders
 
 * build - webpack builds
 * public - static assets and container index.html
